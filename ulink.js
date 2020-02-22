@@ -1,12 +1,18 @@
 var links = [
-              "indramayunetworks.blogspot.com/p/anu1.html?url=",
-              "indramayunetworks.blogspot.com/2020/02/anuan.html?url=",
-              "indramayunetworks.blogspot.com/p/anu2.html?url=",
-              "indramayunetworks.blogspot.com/p/anu3.html?url="
-            ]
-           var openSite = function() {
-              var randIdx = Math.random() * links.length;
-              randIdx = parseInt(randIdx, 10);
-              var link = 'http://' + links[randIdx];
-     return link;
-    };
+  "anuan2.blogspot.com/2020/02/10.html?url=",
+  "anuan2.blogspot.com/2020/02/9.html?url=",
+  "anuan2.blogspot.com/2020/02/8.html?url=",
+  "anuan2.blogspot.com/2020/02/7.html?url=",
+  "anuan2.blogspot.com/2020/02/6.html?url=",
+  "anuan2.blogspot.com/2020/02/5.html?url=",
+  "anuan2.blogspot.com/2020/02/4.html?url=",
+  "anuan2.blogspot.com/2020/02/3.html?url=",
+  "anuan2.blogspot.com/2020/02/2.html?url=",
+  "anuan2.blogspot.com/2020/02/1.html?url="
+  ]
+var openSite = function() {
+  var randIdx = Math.random() * links.length;
+  randIdx = parseInt(randIdx, 10);
+  var link = 'https://' + links[randIdx];
+  return link;
+};
